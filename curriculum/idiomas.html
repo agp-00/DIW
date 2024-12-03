@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job History</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: white;
+        }
+        .slide-down {
+            animation: slideDown 0.5s forwards;
+        }
+        @keyframes slideDown {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(100vh);
+            }
+        }
+        .slide-up {
+            animation: slideUp 0.5s forwards;
+        }
+        .pop-up {
+            animation: popUp 0.5s forwards;
+        }
+        @keyframes popUp {
+            from {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        @keyframes slideUp {
+            from {
+                transform: translateY(100vh);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        .pop-up {
+            animation: popUp 0.5s forwards;
+        }
+        @keyframes popUp {
+            from {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body class="container mt-4">
+    <h1 class="mb-4">Experiencia Laboral</h1>
+    <div class="job-history mb-4 pb-4 border-bottom border-3 border-top border-5">
+        <img src="./img/idiomas/espanol.PNG" alt="Tech Company Logo" class="img-fluid mb-2 me-3" style="max-width: 150px; float: left;">
+        <div>
+            <h2 class="fw-bold fs-5">Español</h2>
+            <div class="fst-italic">Nativo</div>
+            <div class="text-muted" style="font-size: 0.9em;"> </div><br>
+        </div>
+
+    </div>
+
+    <div class="job-history mb-4 pb-4 border-bottom border-3 border-top border-5">
+        <img src="./img/idiomas/catalan.PNG" alt="Tech Company Logo" class="img-fluid mb-2 me-3" style="max-width: 150px; float: left;">
+        <div>
+            <h2 class="fw-bold fs-5">Catalan</h2>
+            <div class="fst-italic">Nativo</div>
+            <div class="text-muted" style="font-size: 0.9em;"> </div><br>
+        </div>
+
+    </div>
+
+
+    <div class="job-history mb-4 pb-4 border-bottom border-3 border-top border-5">
+        <img src="./img/idiomas/ingles.PNG" alt="Tech Company Logo" class="img-fluid mb-2 me-3" style="max-width: 150px; float: left;">
+        <div>
+            <h2 class="fw-bold fs-5">Ingles</h2>
+            <div class="fst-italic">C1</div>
+            <div class="text-muted" style="font-size: 0.9em;"> </div><br>
+        </div>
+
+    </div>
+
+    <div class="job-history mb-4 pb-4 border-bottom border-3 border-top border-5">
+        <img src="./img/idiomas/japones.PNG" alt="Tech Company Logo" class="img-fluid mb-2 me-3" style="max-width: 150px; float: left;">
+        <div>
+            <h2 class="fw-bold fs-5">Japones</h2>
+            <div class="fst-italic">JLPT4</div>
+            <div class="text-muted" style="font-size: 0.9em;"> </div><br>
+        </div>
+
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
